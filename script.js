@@ -90,6 +90,7 @@ const game = (() => {
     _restart.addEventListener('click', (event) => {
         _popup.style.display = 'none';
         _overlay.style.display = 'none';
+        _option.style.display = 'block';
         game.init();
     });
 
