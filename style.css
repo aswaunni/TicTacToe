@@ -52,11 +52,21 @@ body {
     display: none;
 }
 
+.option {
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 4px 4px 6px -1px;
+    z-index: 2;
+}
+
 .pop {
     margin: 20px;
 }
 
-.restart {
+.restart, .player, .computer {
     background-color: #e9d5ff;    
     padding: 10px;
 }
